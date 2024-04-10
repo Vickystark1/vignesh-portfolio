@@ -6,11 +6,11 @@ import resume from '../assets/Vignesh G Resume .pdf'
 const Profile = () => {
   return (
     <div className='grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-[1200px] md:h-[70vh] mx-auto py-8 bg-black'>
-      <div className="col-span-1 my-auto  w-[300px] h-auto lg:w-[400px] mx-auto ml-2 ">
-        <img src={profilepic} alt="profilepic"  height={450} width={250} style={{borderRadius:"50px 50px "}} />
+      <div className="col-span-1 my-auto  w-[300px] h-auto md:w-[310px] sm:w-[250px] lg:w-[380px] mx-auto ml-2 ">
+        <img src={profilepic} alt="profilepic" style={{borderRadius:"50px 50px"}} />
       </div>
-      <div className='col-span-2 px-12 my-auto'>
-        <h1 className='text-white text-4xl sm:text-5xl lg:text-8xl font-extrabold'>
+      <div className='col-span-2 px-12 my-auto '>
+        <h1 className='text-white text-4xl sm:text-4xl lg:text-7xl font-extrabold'>
           <span className='primary-color'>
             I'm a
           </span> <br/>
