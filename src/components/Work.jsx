@@ -76,7 +76,7 @@ const Work = () => {
             </div>
         </div>
 
-        <div className="transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group container rounded-md-flex justify-center items-center mx-auto content-div h-[200px] bg-cover relative" style={{height:"fit-content"}}>
+        {/* <div className="transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group container rounded-md-flex justify-center items-center mx-auto content-div h-[200px] bg-cover relative" style={{height:"fit-content"}}>
             <img src={proj5} layout="fill" objectFit="cover" alt="" />
             <div className="opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center">
                 <span className="text-2xl font-bold text-white tracking-wider">
@@ -89,9 +89,9 @@ const Work = () => {
                     </div>
                 </span>
             </div>
-        </div>
+        </div> */}
 
-        <div className="transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group container rounded-md-flex justify-center items-center mx-auto content-div h-[200px] bg-cover relative" style={{height:"fit-content"}}>
+        {/* <div className="transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group container rounded-md-flex justify-center items-center mx-auto content-div h-[200px] bg-cover relative" style={{height:"fit-content"}}>
             <img src={proj6} layout="fill" objectFit="cover" alt="" height="160px" />
             <div className="opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center">
                 <span className="text-2xl font-bold text-white tracking-wider">
@@ -104,7 +104,7 @@ const Work = () => {
                     </div>
                 </span>
             </div>
-        </div>
+        </div> */}
 
         
       </div>
