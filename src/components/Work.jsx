@@ -51,7 +51,7 @@ const Work = () => {
             <div className="opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center">
                 <span className="text-2xl font-bold text-white tracking-wider">
                     <div className="text-center">
-                        <a href="https://66167f50a472582b915d69b8--vignesh-proj-shoppingcart.netlify.app/" target='__blank'>
+                        <a href="https://6618f76be25e1400088a8fe9--vignesh-proj-shoppingcart.netlify.app/" target='__blank'>
                             <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                                 Live Demo
                             </button>
