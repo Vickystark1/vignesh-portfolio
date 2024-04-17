@@ -10,7 +10,7 @@ import proj6 from '../assets/proj6.png';
 const Work = () => {
   return (
     <div className='max-w-[1200px] mx-auto p-5' id='work'>
-      <div className="pb-8">
+      <div className="pb-8 ">
         <p className="text-4xl mb-3 font-bold primary-color">Work</p>
         <p className="text-gray-400">Check out some of my recent work</p>
       </div>
@@ -76,7 +76,7 @@ const Work = () => {
             </div>
         </div>
 
-        {/* <div className="transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group container rounded-md-flex justify-center items-center mx-auto content-div h-[200px] bg-cover relative" style={{height:"fit-content"}}>
+         <div className="transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group container rounded-md-flex justify-center items-center mx-auto content-div h-[200px] bg-cover relative" style={{height:"fit-content"}}>
             <img src={proj5} layout="fill" objectFit="cover" alt="" />
             <div className="opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center">
                 <span className="text-2xl font-bold text-white tracking-wider">
@@ -89,14 +89,14 @@ const Work = () => {
                     </div>
                 </span>
             </div>
-        </div> */}
+        </div> 
 
-        {/* <div className="transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group container rounded-md-flex justify-center items-center mx-auto content-div h-[200px] bg-cover relative" style={{height:"fit-content"}}>
+         <div className="transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group container rounded-md-flex justify-center items-center mx-auto content-div h-[200px] bg-cover relative" style={{height:"fit-content"}}>
             <img src={proj6} layout="fill" objectFit="cover" alt="" height="160px" />
             <div className="opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center">
                 <span className="text-2xl font-bold text-white tracking-wider">
                     <div className="text-center">
-                        <a href="/">
+                        <a href="https://661f9228ef4c8600084d76b7--vignesh-proj-googlecuurencyconverter.netlify.app/">
                             <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                                 Live Demo
                             </button>
@@ -104,7 +104,7 @@ const Work = () => {
                     </div>
                 </span>
             </div>
-        </div> */}
+        </div> 
 
         
       </div>

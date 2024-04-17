@@ -10,9 +10,10 @@ const Navbar = () => {
   }
 
   return (
-    <div className='bg-black text-gray-400 h-[100px] max-w-[1200px] mx-auto flex justify-between items-center'>
-      <h1 className='text-3xl font-bold primary-color ml-4'>Vignesh</h1>
+    <div className='bg-black text-gray-400 h-[100px] max-w-[1200px] mx-auto  flex justify-between items-center disabled:static sticky top-0 z-10  '>
+      <h1 className='text-3xl font-bold primary-color ml-5'>Vignesh</h1>
       <ul className='hidden md:flex'>
+        <li className="p-5"><a href="#">Home</a></li>
         <li className="p-5"><a href="#about">About</a></li>
         <li className="p-5"><a href="#work">Work</a></li>
         <li className="p-5"><a href="#contact">Contact</a></li>
@@ -22,14 +23,13 @@ const Navbar = () => {
       {nav? <AiOutlineClose size={20}/>: <AiOutlineMenu size={20} /> }
     </div>
 
-    <div className={nav? 'fixed h-full left-0 top-0 w-[60%] bg-[#202121] ease-in-out duration-500':'fixed left-[-100%]'}>
+    <div className={nav? 'fixed h-full left-0 top-0 w-[60%] bg-[#202121] ease-in-out duration-500 position-relative ':'fixed left-[-100%]'}>
 
-    <h1 className='text-3xl font-bold primary-color m-4'>Vicky</h1>
+    <h1 className='text-3xl font-bold primary-color m-5 mt-8'>Vignesh</h1>
       <ul className='p-8 text-2xl'>
-        <li className="p-2"><a href="#home">Home</a></li>
+        <li className="p-2"><a href="#">Home</a></li>
         <li className="p-2"><a href="#about">About</a></li>
         <li className="p-2"><a href="#work">Work</a></li>
-        <li className="p-2"><a href="#experience">Experience</a></li>
         <li className="p-2"><a href="#contact">Contact</a></li>
       </ul>
     </div>
