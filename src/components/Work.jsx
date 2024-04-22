@@ -96,7 +96,7 @@ const Work = () => {
             <div className="opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center">
                 <span className="text-2xl font-bold text-white tracking-wider">
                     <div className="text-center">
-                        <a href="https://661f9228ef4c8600084d76b7--vignesh-proj-googlecuurencyconverter.netlify.app/">
+                        <a href="https://662620ee8cb5220008c7b840--vignesh-proj-googlecuurencyconverter.netlify.app/">
                             <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                                 Live Demo
                             </button>
