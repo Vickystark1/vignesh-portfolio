@@ -5,7 +5,7 @@ import resume from '../assets/Vignesh.G Resume.pdf'
 
 const Profile = () => {
   return (
-    <div className='grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-[1200px] md:h-[70vh] mx-auto py-8 bg-black  justify-center align-middle '>
+    <div className='container grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-[1200px] md:h-[70vh] mx-auto py-8 bg-black  justify-center align-middle '>
       <div className="mx-auto flex">
         <img className='col-span-1 my-auto  w-[300px] h-auto md:w-[310px] sm:w-[250px] lg:w-[380px] mx-auto ml-2 ' src={profilepic} alt="profilepic" style={{borderRadius:"50px 50px"}} />
       </div>
