@@ -40,7 +40,7 @@ const Work = () => {
          <Card.Body>
            <Card.Title style={{color:"#fff"}}>User Authenticator</Card.Title>
            <Card.Text style={{color:"#fff"}}>A user authentication React project integrating Firebase for secure registration and login, with Postman API services enhancing functionality, all styled with CSS and Bootstrap.  </Card.Text>
-           <a href="https://662b99084a93c80008cf6ad4--vignesh-proj-reactauthenticator.netlify.app/" target='_blank'>
+           <a href="https://662f691abd796f000837723f--vignesh-proj-reactauthenticator.netlify.app/" target='_blank'>
 
            <Button variant="dark" style={{color:"#fff"}} className='mt-3' >Live Demo</Button>
            </a>
