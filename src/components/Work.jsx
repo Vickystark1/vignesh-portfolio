@@ -11,8 +11,8 @@ import { Button } from 'react-bootstrap';
 
 const Work = () => {
   return (
-    <div className='max-w-[1200px] pt-24 mx-auto  p-5' id='work'>
-      <div className="pb-8  ">
+    <div className='max-w-[1200px] pt-24 mx-auto p-4' id='work'>
+      <div className="pb-6 my-5  ">
         <p className="text-4xl mb-3 font-bold primary-color ">Work</p>
         <p className="text-gray-400">Check out some of my recent work</p>
       </div>
@@ -34,7 +34,7 @@ const Work = () => {
         </div> */}
 
         <div className="transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group container rounded-md-flex justify-center items-center mx-auto content-div h-[200px] bg-cover relative" style={{height:"fit-content"}}>
-            <img src={proj1} layout="fill" objectFit="cover" alt="" />
+            <img src={proj1} layout="fill"  alt="" />
             <Card  style={{border:"none",backgroundColor:"#0000" }} className='cart_style  mx-2'>
 
          <Card.Body>
@@ -49,7 +49,7 @@ const Work = () => {
         </div>
 
         <div className="transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group container rounded-md-flex justify-center items-center mx-auto content-div h-[200px] bg-cover relative" style={{height:"fit-content"}}>
-            <img src={proj2} layout="fill" objectFit="cover" alt="" />
+            <img src={proj2} layout="fill"  alt="" />
             <Card  style={{border:"none",backgroundColor:"#0000" }} className='cart_style  mx-2'>
 
          <Card.Body>
@@ -64,7 +64,7 @@ const Work = () => {
         </div>
 
         <div className="transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group container rounded-md-flex justify-center items-center mx-auto content-div h-[200px] bg-cover relative" style={{height:"fit-content"}}>
-            <img src={proj3} layout="fill" objectFit="cover" alt="" />
+            <img src={proj3} layout="fill"  alt="" />
             <Card  style={{border:"none" ,backgroundColor:"#0000"}} className='cart_style  mx-2'>
 
          <Card.Body>
@@ -79,7 +79,7 @@ const Work = () => {
         </div>
 
         <div className="transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group container rounded-md-flex justify-center items-center mx-auto content-div h-[200px] bg-cover relative" style={{height:"fit-content"}}>
-            <img src={proj4} layout="fill" objectFit="cover" alt="" />
+            <img src={proj4} layout="fill"  alt="" />
             <Card  style={{border:"none",backgroundColor:"#0000" }} className='cart_style  mx-2'>
 
          <Card.Body>
@@ -94,7 +94,7 @@ const Work = () => {
         </div>
 
           <div className="transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group container rounded-md-flex justify-center items-center mx-auto content-div h-[200px] bg-cover relative" style={{height:"fit-content"}}>
-            <img src={proj5} layout="fill" objectFit="cover" alt="" />
+            <img src={proj5} layout="fill"  alt="" />
             <Card  style={{border:"none",backgroundColor:"#0000" }} className='cart_style  mx-2'>
 
          <Card.Body>
@@ -109,7 +109,7 @@ const Work = () => {
          </div> 
 
          <div className="transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group container rounded-md-flex justify-center items-center mx-auto content-div h-[200px] bg-cover relative" style={{height:"fit-content"}}>
-         <img src={proj6} layout="fill" objectFit="cover" alt="" height="160px" />
+         <img src={proj6} layout="fill"  alt="" height="160px" />
 
             {/* <div className="opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center">
                 <span className="text-2xl font-bold text-white tracking-wider">
