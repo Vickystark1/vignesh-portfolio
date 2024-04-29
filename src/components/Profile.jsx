@@ -1,7 +1,7 @@
 import React from 'react'
 import profilepic from '../assets/profilepic.jpg'
 import { TypeAnimation } from 'react-type-animation'
-import resume from '../assets/Vignesh.G.Resume.pdf'
+import resume from '../assets/Vignesh.G Resume.pdf'
 
 const Profile = () => {
   return (
